@@ -5,6 +5,10 @@ import Stats from "./components/Stats";
 import Business from "./components/Business";
 import Billing from "./components/Billing";
 import CardDeal from "./components/CardDeal";
+import Testimonials from "./components/Testimonials";
+import Clients from "./components/Clients";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 // styles
 import styles from "./style";
 
@@ -30,6 +34,10 @@ function App() {
           <Business />
           <Billing />
           <CardDeal />
+          <Testimonials />
+          <Clients />
+          <CTA />
+          <Footer />
         </div>
     </div>
   </div>
